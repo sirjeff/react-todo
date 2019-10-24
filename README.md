@@ -12,12 +12,15 @@ This app uses React as the base for interaction and dynamic rendering
 ### Requirements
 - npm (for dev server and to compile code)
 - web server (if going external)
-- new browser
--- tested and developed with Vivaldi 2.9
--- IE 11 and under, does not work
--- Chromium based browsers (Opera, Chrome, Vivaldi) should all work
--- FireFox 71+ is good
--- Otter browsers ... useless
+- Modern browser
+
+### Browser Compatibility
+This app was tested and developed whilst using Vivaldi 2.9
+- Chromium based browsers (Opera, Chrome, Vivaldi) should all work
+- IE 11 and under, does not work
+- FireFox 71+ is good
+- Otter browsers ... Useless :(
+- Opera 12.18 , dang! No go.
 
 ### DB Storage
 External proxy DB via OMI, built in Perl and uses Perl DBI to access MySQL
