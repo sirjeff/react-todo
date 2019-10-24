@@ -41,6 +41,7 @@ Access is granted via this app.
 6. Wait a few days ..... (or throw your dial-up modem away, get onto broadband and wait only 10 minutes lol) 
 7. Once it's all done test it by running: > `npm start` (it will automatically open the app. in your default web browsing browser)
 8. Change the code to use your DB of choice (hope to have some instructions for this soon)
+9. Build production files for remote tests: > `npm run build` (compilied files will end-up in the 'build' directory)
 
 ## Future plans
 - show image while dragging
