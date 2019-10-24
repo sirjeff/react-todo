@@ -1,19 +1,9 @@
 import React from "react"
 
-class Footer extends React.Component {
-
-
-  
+class Footer extends React.Component {  
   render() {
-
-//    const todoItems = this.state.todos.map(item => <TodoItem key={item.id} item={item} handleChange={this.handleChange} />)
-//  const todoItems = [].concat(this.state.todos).sort((a, b) => a.sorder > b.sorder).map( (item, i) => <TodoItem key={i} item={item} handleChange={this.handleChange} />)
-  
     return (
-
-    <div 
-      className="drag todo-item" 
-    >
+    <div className="drag todo-item">
       <input 
         className="form-check-input"
         type="checkbox" 
@@ -27,10 +17,7 @@ class Footer extends React.Component {
         data-sorder={666}
       ></label>
     </div>
-    
   )}
-  
 }
-
 export default Footer
 
