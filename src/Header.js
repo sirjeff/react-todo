@@ -49,7 +49,7 @@ class Header extends React.Component {
   render() {
     return (
       <nav className="navbar navbar-dark bg-dark">
-        <a href="/" onClick={this.handleReload} className="navbar-brand i_reload">To Do</a>
+        <a href="#" onClick={this.handleReload} className="navbar-brand i_reload">To Do</a>
         <i onClick={this.handleSave} className={this.getBadgeClasses()}>
          Save
         </i>
