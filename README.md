@@ -3,10 +3,10 @@ A basic and useable 'to do' list as a demo for React.
 This app uses React as the base for interaction and dynamic rendering.
 The code script uses a connection to an online DB hosted by OMI. This is very limited and most likely be down a few times a day (due to hosting and bandwidth costs). It has limits on views , updates, and concurrent connections. Also note that it's the same DB the demo uses:
 
-[Online usable Demo](http://omi.nz/react_todo/)
+<a href="http://omi.nz/react_todo/" target="_blank">Online usable Demo</a>
 (please do not make more than 5 changes (just enough to see how it works) else it'll get an attitude)
 
-I will look at writting up the requirements for DB usage at some point.
+I will look at witting up the requirements for DB usage at some point.
 
 ## Technologies
 - react-app 0.1.0
@@ -32,7 +32,7 @@ This app was tested and developed whilst using Vivaldi 2.9
 External proxy DB via OMI, built in Perl and uses Perl DBI to access MySQL
 Access is granted via this app.
 
-## Instalation / Setup
+## Installation / Setup
 1. Download the code "react-todo-master.zip" then unzip it.
 2. Rename the unzipped folder to "react-todo" (or whatever you actually want it to be)
 3. Open you terminal or command prompt.
@@ -41,7 +41,7 @@ Access is granted via this app.
 6. Wait a few days ..... (or throw your dial-up modem away, get onto broadband and wait only 10 minutes lol) 
 7. Once it's all done test it by running: > `npm start` (it will automatically open the app. in your default web browsing browser)
 8. Change the code to use your DB of choice (hope to have some instructions for this soon)
-9. Build production files for remote tests: > `npm run build` (compilied files will end-up in the 'build' directory)
+9. Build production files for remote tests: > `npm run build` (compiled files will end-up in the 'build' directory)
 
 ## Future plans
 - show image while dragging
