@@ -33,13 +33,14 @@ External proxy DB via OMI, built in Perl and uses Perl DBI to access MySQL
 Access is granted via this app.
 
 ## Instalation / Setup
-1. Download the code as a zip then unzip it.
-2. Open you terminal or command prompt.
-3. CD to the unzipped directory (it should be called 'react-todo')
-4. Execute: `>npm install` (downloads and installs approx. 250MB of modules)
-5. Wait a few days ..... (or throw your dial-up modem away, get onto broadband and wait only 10 minutes lol) 
-6. Once it's all done test it by running: > `npm start`
-7. Change the code to use your DB of choice (hope to have some instructions for this soon)
+1. Download the code "react-todo-master.zip" then unzip it.
+2. Rename the unzipped folder to "react-todo" (or whatever you actually want it to be)
+3. Open you terminal or command prompt.
+4. CD to the unzipped directory ('react-todo' or whatever you named it)
+5. Execute: `>npm install` (downloads and installs approx. 250MB of modules)
+6. Wait a few days ..... (or throw your dial-up modem away, get onto broadband and wait only 10 minutes lol) 
+7. Once it's all done test it by running: > `npm start` (it will automatically open the app. in your default web browsing browser)
+8. Change the code to use your DB of choice (hope to have some instructions for this soon)
 
 ## Future plans
 - show image while dragging
