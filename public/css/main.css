@@ -1,0 +1,135 @@
+body {
+    background-color: #fff;
+    position: relative;
+}
+
+.navbar {
+  color: #fff;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.navbar div {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar div.drag {
+  margin-right: 15px;
+  cursor: move;
+}
+
+
+.navbar div.hide{
+  display: none;
+}
+.navbar div.show{
+  display: block;
+}
+
+.navbar div b{
+  width: 50%;
+  margin: auto;
+  padding: 1em;
+  position: relative;
+  z-index: 2;
+  background: rgba(255,0,0,0.5)
+}
+
+.navbar .i_reload {
+  position: relative;
+  z-index: 2;
+}
+
+.navbar .i_save {
+  border-radius: 6px;
+  padding: 5px;
+  font-style: normal;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+.navbar .i_save.success {
+  background: #518b35;
+}
+
+.navbar .i_save.failure {
+  background: #f00;
+}
+
+.navbar .i_save::hover {
+  background: #505b4b;
+}
+
+.navbar .i_save::active {
+  background: #357a8b;
+}
+
+
+
+
+.todo-list {
+    background-color: white;
+    margin: auto;
+    width: 90%;
+    align-items: center;
+    padding: 2em 1em;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    width: 100%;
+    border-bottom: 1px solid #cecece;
+    font-family: serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #333333;
+}
+
+.todo-item label {
+  display: inline-block;
+  cursor: pointer;
+  width: 100%;
+  margin-left: 2em;
+  font-size: 1.5em
+}
+
+input[type=checkbox] {
+  margin-left: 0;
+  -ms-transform: scale(2);
+  -moz-transform: scale(2);
+  -webkit-transform: scale(2);
+  -o-transform: scale(2);
+  margin-top: 0.8rem;
+}
+
+input[type=checkbox]:focus {
+    outline: 0;
+}
+
+input[type=checkbox]:checked + label {
+  color: #ccc;
+  text-decoration: line-through;
+}
+
+input.remove{
+ position: relative;
+ background: #ff3535;
+ border: solid 1px #8d0000;
+ border-radius: 50%;
+ color: #fff;
+ font-family: arial;
+ line-height: 1;
+ font-size: 0.7em;
+ width: 2.2em;
+ height: 2em;
+ text-align: center;
+ margin: auto;
+ display: block;
+ cursor: pointer;
+}
