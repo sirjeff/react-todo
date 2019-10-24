@@ -3,7 +3,7 @@ A basic and useable 'to do' list as a demo for React.
 This app uses React as the base for interaction and dynamic rendering.
 The code script uses a connection to an online DB hosted by OMI. This is very limited and most likely be down a few times a day (due to hosting and bandwidth costs). It has limits on views , updates, and concurunt connections. Also note that it's the same DB the demo uses:
 
-[Online usable Demo](https://omi.nz/react_todo/)
+[Online usable Demo](http://omi.nz/react_todo/)
 (please do not make more than 5 changes (just enough to see how it works) else it'll get an attitude)
 
 I will look at writting up the requirements for DB usage at some point.
