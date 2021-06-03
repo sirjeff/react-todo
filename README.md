@@ -1,4 +1,5 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/sirjeff/react-todo)
+![GitHub top language](https://img.shields.io/github/languages/top/sirjeff/react-todo)
 
 # ToDo App in React
 A basic and useable 'to do' list as a demo for React.
