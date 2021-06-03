@@ -1,3 +1,5 @@
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/sirjeff/react-todo)
+
 # ToDo App in React
 A basic and useable 'to do' list as a demo for React.
 This app uses React as the base for interaction and dynamic rendering.
